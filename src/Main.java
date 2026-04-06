@@ -8,17 +8,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n;
         do{
-            System.out.print("아기사자 수를 입력하시오 : ");
+            System.out.println("아기사자 수를 입력하시오 : ");
             n = sc.nextInt();
-        }while(n < 5);
+            if(n < 5) System.out.println("5명 이상 입력해주세요");
+        }while(n<5);
+
         sc.nextLine();
 
+        System.out.println("아기사자 이름을 입력해주세요");
         for(int i=0; i<n; i++){
             members[i] = sc.nextLine();
         }
-
+        System.out.println("명단 출력");
         for(int i=0; i<n; i++){
-            System.out.println(members[i]);
+            System.out.println((i+1)+". "+members[i]);
         }
     }
 }
