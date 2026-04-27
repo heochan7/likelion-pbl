@@ -21,5 +21,6 @@ public class step2 {
 
         System.out.println("객체를 생성합니다.");
         Lion lion = new Lion(name, major, num);
+        lion.validate();
     }
 }
