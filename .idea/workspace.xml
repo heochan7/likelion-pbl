@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 01 제출 (2)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 2 제출">
+      <change beforePath="$PROJECT_DIR$/bin/production/likelion-pbl/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/hello" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +54,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/hello",
+    "git-widget-placeholder": "feature/misson2",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/geehe/Desktop/likelion/likelion-pbl",
@@ -137,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775440456696</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="미션 2 제출">
+      <option name="closed" value="true" />
+      <created>1777311905422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777311905422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +173,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="feature/misson2" />
                       </list>
                     </value>
                   </entry>
@@ -186,6 +193,7 @@
     <MESSAGE value="미션 01 제출" />
     <MESSAGE value="미션 01 제출 (1)" />
     <MESSAGE value="미션 01 제출 (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="미션 01 제출 (2)" />
+    <MESSAGE value="미션 2 제출" />
+    <option name="LAST_COMMIT_MESSAGE" value="미션 2 제출" />
   </component>
 </project>
