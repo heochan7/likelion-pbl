@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 2 제출">
+    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 2 제출 (1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package1/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/step2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package1/step2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package1/Lion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package1/step1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package1/step2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package2/step3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -155,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777312212206</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="미션 2 제출 (1)">
+      <option name="closed" value="true" />
+      <created>1777313955044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1777313955044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +216,7 @@
     <MESSAGE value="미션 01 제출 (1)" />
     <MESSAGE value="미션 01 제출 (2)" />
     <MESSAGE value="미션 2 제출" />
-    <option name="LAST_COMMIT_MESSAGE" value="미션 2 제출" />
+    <MESSAGE value="미션 2 제출 (1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="미션 2 제출 (1)" />
   </component>
 </project>
