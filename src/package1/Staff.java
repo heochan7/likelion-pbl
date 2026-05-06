@@ -1,30 +1,32 @@
 package package1;
 
-public class Lion extends Member {
-    private int num;
-    public Lion(String name, String major, int generation, String part, int num) {
+public class Staff extends Member {
+
+    private String role;
+
+    public Staff(String name, String major, int generation, String part, String role) {
         super(name, major, generation, part);
-        this.num=num;
+        this.role = role;
     }
 
     @Override
     public SubmitPolicy getSubmitPolicy() {
-        return new LionSubmitPolicy();
-    }
-
-    @Override
-    public String toString() {
-        return "Lion{" +
-                "num=" + num +
-                ", name='" + name + '\'' +
-                ", major='" + major + '\'' +
-                ", generation=" + generation +
-                ", part='" + part + '\'' +
-                '}';
+        return new StaffSubmitPolicy();
     }
 
     @Override
     public String getDetailInfo() {
         return toString();
+    }
+
+    @Override
+    public String toString() {
+        return "Staff{" +
+                "role='" + role + '\'' +
+                ", name='" + name + '\'' +
+                ", major='" + major + '\'' +
+                ", generation=" + generation +
+                ", part='" + part + '\'' +
+                '}';
     }
 }
