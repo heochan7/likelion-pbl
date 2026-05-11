@@ -1,12 +1,11 @@
-package package1;
+package package2;
 
 import role.Lion;
 import role.Member;
 import role.Staff;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -16,7 +15,7 @@ public class Main {
         int choice;
 
         do {
-            System.out.println("\n1. 멤버 등록 | 2. 전체 멤버 | 3. 이름으로 검색 | 4. 종료");
+            System.out.println("\n1. 멤버 등록 | 2. 전체 멤버 | 3. 이름으로 검색 | 4. 파트별 조회 | 5. 종료");
             System.out.print("선택: ");
             choice = sc.nextInt();
             sc.nextLine(); // 버퍼 비우기
@@ -32,12 +31,15 @@ public class Main {
                     searchMember(sc, members);
                     break;
                 case 4:
+                    searchPart(sc, members);
+                    break;
+                case 5:
                     System.out.println("프로그램을 종료합니다.");
                     break;
                 default:
                     System.out.println("잘못된 입력입니다.");
             }
-        } while (choice != 4);
+        } while (choice != 5);
     }
 
     // 1. 멤버 등록 로직
@@ -102,4 +104,33 @@ public class Main {
                         () -> System.out.println("존재하는 멤버가 없습니다.")
                 );
     }
+
+    private static void searchPart(Scanner sc, List<Member> members){
+        if(members.isEmpty()){
+            System.out.println("등록된 멤버가 없습니다.");
+            return;
+        }
+
+        Map<String, List<Member>> membersByPart = members.stream()
+                .collect(Collectors.groupingBy(Member::getPart));
+
+        Set<String> parts = membersByPart.keySet();
+        String joinedParts = String.join(" ", parts);
+        System.out.println("등록된 파트: [ " + joinedParts + " ]");
+
+        System.out.print("조회할 파트 : ");
+        String search =sc.nextLine();
+        // 검색하고 싶은 파트명
+        List<Member> memberList = membersByPart.get(search);
+        for (int i = 0; i < memberList.size(); i++) {
+            Member member = memberList.get(i); // 변수에 담기
+            System.out.printf("%d. %s(%s) - %d기%n",
+                    i + 1,
+                    member.getName(),
+                    member.getRole(),
+                    member.getGeneration()
+            );
+        }
+    }
 }
+
