@@ -1,12 +1,15 @@
-package package1;
+package role;
+
+import policy.StaffSubmitPolicy;
+import policy.SubmitPolicy;
 
 public class Staff extends Member {
 
-    private String role;
+    private String sRole;
 
-    public Staff(String name, String major, int generation, String part, String role) {
-        super(name, major, generation, part);
-        this.role = role;
+    public Staff(String name, String major, int generation, String part, String sRole) {
+        super(name, major, generation, part, "STAFF");
+        this.sRole = sRole;
     }
 
     @Override
@@ -22,7 +25,7 @@ public class Staff extends Member {
     @Override
     public String toString() {
         return "Staff{" +
-                "role='" + role + '\'' +
+                "role='" + sRole + '\'' +
                 ", name='" + name + '\'' +
                 ", major='" + major + '\'' +
                 ", generation=" + generation +
