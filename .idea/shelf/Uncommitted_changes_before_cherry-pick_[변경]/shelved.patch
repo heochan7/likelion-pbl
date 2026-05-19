@@ -1,0 +1,90 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b458b520-644b-409a-a48c-8572113fd445\" name=\"변경\" comment=\"미션 3 제출\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/bin/production/likelion-pbl/package1/Lion.class\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/package1/Lion.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/role/Lion.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/package1/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/package1/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/package1/Member.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/role/Member.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/package1/Staff.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/role/Staff.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/package1/SubmitPolicy.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/policy/SubmitPolicy.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"feature/misson2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;heochan7&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/heochan7/likelion-pbl&quot;,\r\n    &quot;accountId&quot;: &quot;6a80b25f-9a49-4f38-ab23-2e4b1b6001ad&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3BhSdSB4ZmljmSNPgX2MzgWYKAt\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.step1.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.step2.executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;feature/misson3&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/geehe/Desktop/likelion/likelion-pbl&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;\r\n  }\r\n}</component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\r\n      <changelist id=\"b458b520-644b-409a-a48c-8572113fd445\" name=\"변경\" comment=\"\" />\r\n      <created>1774939895619</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1774939895619</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775091716807</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775091716807</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"second commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775091754630</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775091754630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"third commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775091777746</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775091777746</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"branch commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775092125545</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775092125545</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"미션 01 제출\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775439738843</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775439738843</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"미션 01 제출\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775439768559</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775439768559</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"미션 01 제출 (1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775440129186</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775440129186</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"미션 01 제출 (2)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1775440456696</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1775440456696</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"미션 2 제출\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1777311905422</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1777311905422</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"미션 2 제출\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1777312212206</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1777312212206</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"미션 2 제출 (1)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1777313955044</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1777313955044</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"미션 3 제출\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1778047876781</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1778047876781</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"feature/misson2\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <MESSAGE value=\"second commit\" />\r\n    <MESSAGE value=\"third commit\" />\r\n    <MESSAGE value=\"branch commit\" />\r\n    <MESSAGE value=\"미션 01 제출\" />\r\n    <MESSAGE value=\"미션 01 제출 (1)\" />\r\n    <MESSAGE value=\"미션 01 제출 (2)\" />\r\n    <MESSAGE value=\"미션 2 제출\" />\r\n    <MESSAGE value=\"미션 2 제출 (1)\" />\r\n    <MESSAGE value=\"미션 3 제출\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"미션 3 제출\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 919bad8612a344ff1ccb2f4a63e48180c614a3d8)
++++ b/.idea/workspace.xml	(date 1779187484652)
+@@ -4,15 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 3 제출">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/bin/production/likelion-pbl/package1/Lion.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/package1/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Lion.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package1/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/package1/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Member.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/package1/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Staff.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/package1/SubmitPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/policy/SubmitPolicy.java" afterDir="false" />
+-    </list>
++    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 3 제출" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -54,24 +46,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.step1.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.step2.executor&quot;: &quot;Run&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;feature/misson3&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/geehe/Desktop/likelion/likelion-pbl&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.Main.executor": "Run",
++    "Application.step1.executor": "Run",
++    "Application.step2.executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "feature/misson5",
++    "ignore.virus.scanning.warn.message": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/geehe/Desktop/likelion/likelion-pbl",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "MavenSettings"
+   }
+-}</component>
++}]]></component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="디폴트 작업">
+       <changelist id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="" />
+@@ -185,6 +177,11 @@
+         <entry key="Branch">
+           <value>
+             <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="feature/misson4" />
++                </option>
++              </RecentGroup>
+               <RecentGroup>
+                 <option name="FILTER_VALUES">
+                   <option value="main" />
+@@ -205,7 +202,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="feature/misson2" />
++                        <option value="feature/misson4" />
+                       </list>
+                     </value>
+                   </entry>

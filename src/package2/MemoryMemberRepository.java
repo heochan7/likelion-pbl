@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class MemoryMemberRepository implements MemberRepository {
 
-    private ArrayList<Member> members = new ArrayList<>() ;
+    private final ArrayList<Member> members = new ArrayList<>() ;
 
     @Override
     public void save(Member member) {
