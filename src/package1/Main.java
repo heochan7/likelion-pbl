@@ -4,102 +4,111 @@ import role.Lion;
 import role.Member;
 import role.Staff;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        List<Member> members = new ArrayList<>();
-        int choice;
+        Scanner scanner = new Scanner(System.in);
+        // 요구사항: Main에서는 Service만 생성해서 사용한다.
+        MemberService service = new MemberService();
 
-        do {
-            System.out.println("\n1. 멤버 등록 | 2. 전체 멤버 | 3. 이름으로 검색 | 4. 종료");
+        while (true) {
+            System.out.println("\n===== 멋사 멤버 관리 시스템  =====");
+            System.out.println("1. 멤버 등록");
+            System.out.println("2. 전체 멤버 조회");
+            System.out.println("3. 이름으로 검색");
+            System.out.println("4. 종료");
             System.out.print("선택: ");
-            choice = sc.nextInt();
-            sc.nextLine(); // 버퍼 비우기
 
-            switch (choice) {
-                case 1:
-                    registerMember(sc, members);
-                    break;
-                case 2:
-                    printAllMembers(members);
-                    break;
-                case 3:
-                    searchMember(sc, members);
-                    break;
-                case 4:
-                    System.out.println("프로그램을 종료합니다.");
-                    break;
-                default:
-                    System.out.println("잘못된 입력입니다.");
+            // 숫자가 아닌 문자 입력 시 에러 방지 및 버퍼 비우기 최적화
+            if (!scanner.hasNextInt()) {
+                System.out.println("올바른 숫자를 입력해주세요.");
+                scanner.nextLine();
+                continue;
             }
-        } while (choice != 4);
-    }
 
-    // 1. 멤버 등록 로직
-    private static void registerMember(Scanner sc, List<Member> members) {
-        System.out.print("역할 선택 (아기사자: 1, 운영진: 2): ");
-        int type = sc.nextInt();
-        sc.nextLine();
+            int menuChoice = scanner.nextInt();
+            scanner.nextLine(); // 버퍼 비우기
 
-        System.out.print("이름: "); String name = sc.nextLine();
-        boolean isDuplicate = members.stream()
-                .anyMatch(m -> m.getName().equals(name));
+            if (menuChoice == 4) {
+                System.out.println("프로그램을 종료합니다.");
+                break;
+            }
 
-        if (isDuplicate) {
-            System.out.println("이미 등록된 이름입니다. 등록을 취소합니다.");
-            return; // 메서드 종료
+            switch (menuChoice) {
+                case 1:
+                    // 1. 역할 선택
+                    System.out.print("👤 역할 선택 (1: 아기사자, 2: 운영진): ");
+                    if (!scanner.hasNextInt()) {
+                        System.out.println("숫자로 선택해주세요.");
+                        scanner.nextLine();
+                        break;
+                    }
+                    int roleChoice = scanner.nextInt();
+                    scanner.nextLine();
+
+                    System.out.println("\n정보 입력");
+                    System.out.print("이름: ");     String name = scanner.nextLine();
+                    System.out.print("전공: ");     String major = scanner.nextLine();
+
+                    System.out.print("기수: ");
+                    int generation = 0;
+                    if (scanner.hasNextInt()) {
+                        generation = scanner.nextInt();
+                        scanner.nextLine();
+                    } else {
+                        scanner.nextLine();
+                    }
+
+                    System.out.print("파트: ");     String part = scanner.nextLine();
+
+                    Member member;
+                    if (roleChoice == 1) {
+                        System.out.print("학번: "); int num = scanner.nextInt();
+                        scanner.nextLine();
+                        member = new Lion(name, major, generation, part, num);
+                    } else {
+                        System.out.print("직책: "); String sRole = scanner.nextLine();
+                        member = new Staff(name, major, generation, part, sRole);
+                    }
+
+                    service.join(member);
+                    break;
+
+                case 2:
+                    System.out.println("\n===== 전체 멤버 목록 =====");
+                    // 서비스에서 전체 목록을 받아옴
+                    List<Member> members = service.findAllMembers();
+
+                    if (members == null || members.isEmpty()) {
+                        System.out.println("등록된 멤버가 없습니다.");
+                    } else {
+                        for (Member m : members) {
+                            // 각 맴버 정보를 예쁘게 출력 (Member 클래스에 toString()이 구현되어 있으면 편해)
+                            System.out.println(m);
+                        }
+                    }
+                    break;
+
+                case 3:
+                    System.out.print("검색할 이름: ");
+                    String searchName = scanner.nextLine();
+
+                    Member foundMember = service.findMemberByName(searchName);
+
+                    if (foundMember == null) {
+                        System.out.println("해당 이름의 멤버를 찾을 수 없습니다.");
+                    } else {
+                        System.out.println("\n===== 검색 결과 =====");
+                        System.out.println(foundMember);
+                    }
+                    break;
+
+                default:
+                    System.out.println("잘못된 번호입니다. 1~4번 사이의 숫자를 입력해주세요.");
+                    break;
+            }
         }
-
-        System.out.print("전공: "); String major = sc.nextLine();
-        System.out.print("기수: "); int gen = sc.nextInt();
-        sc.nextLine(); // 버퍼 비우기
-        System.out.print("파트: "); String part = sc.nextLine();
-
-        if (type == 1) {
-            System.out.print("학번: "); int num = sc.nextInt();
-            sc.nextLine();
-            members.add(new Lion(name, major, gen, part, num));
-        } else {
-            System.out.print("직책: "); String sRole = sc.nextLine();
-            members.add(new Staff(name, major, gen, part, sRole));
-        }
-        System.out.println("등록 완료!");
-    }
-
-    // 2. 전체 멤버 출력 로직
-    private static void printAllMembers(List<Member> members) {
-        if (members.isEmpty()) {
-            System.out.println("등록된 멤버가 없습니다.");
-            return;
-        }
-        System.out.println("\n=== 전체 멤버 목록 ===");
-        for (int i = 0; i < members.size(); i++) {
-            Member m = members.get(i);
-            System.out.printf("%d. [%s] %s (%d기)\n", i + 1, m.getRole(), m.getName(), m.getGeneration());
-        }
-    }
-
-    // 3. 이름 검색 로직
-    private static void searchMember(Scanner sc, List<Member> members) {
-        System.out.print("검색할 이름: ");
-        String targetName = sc.nextLine();
-
-        // 스트림을 이용해 조건에 맞는 첫 번째 멤버 찾기
-        members.stream()
-                .filter(m -> m.getName().equals(targetName))
-                .findFirst()
-                .ifPresentOrElse(
-                        member -> {
-                            System.out.println("\n[검색 결과]");
-                            System.out.println(member.getDetailInfo());
-                            member.checkSubmission(); // 과제 제출 대상 여부 출력
-                        },
-                        () -> System.out.println("존재하는 멤버가 없습니다.")
-                );
     }
 }
