@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 3 제출">
+    <list default="true" id="b458b520-644b-409a-a48c-8572113fd445" name="변경" comment="미션 5 제출">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/production/likelion-pbl/package1/Lion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/package1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/role/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package1/SubmitPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/policy/SubmitPolicy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,9 @@
     &quot;accountId&quot;: &quot;6a80b25f-9a49-4f38-ab23-2e4b1b6001ad&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -62,7 +59,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/misson3&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/misson5&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/geehe/Desktop/likelion/likelion-pbl&quot;,
@@ -176,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778047876781</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="미션 5 제출">
+      <option name="closed" value="true" />
+      <created>1779187598790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779187598790</updated>
+    </task>
+    <task id="LOCAL-00014" summary="미션 5 제출">
+      <option name="closed" value="true" />
+      <created>1779187765145</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779187765145</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +198,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/misson5" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="main" />
@@ -228,6 +246,7 @@
     <MESSAGE value="미션 2 제출" />
     <MESSAGE value="미션 2 제출 (1)" />
     <MESSAGE value="미션 3 제출" />
-    <option name="LAST_COMMIT_MESSAGE" value="미션 3 제출" />
+    <MESSAGE value="미션 5 제출" />
+    <option name="LAST_COMMIT_MESSAGE" value="미션 5 제출" />
   </component>
 </project>
