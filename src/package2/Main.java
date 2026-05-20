@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // 요구사항: Main에서는 Service만 생성해서 사용한다.
-        MemberRepository repository;
+        AppConfig config;
 
         System.out.println("저장소를 선택하세요.");
         System.out.println("1. MemoryMemberRepository");
@@ -20,13 +20,8 @@ public class Main {
         int choiceRepository = scanner.nextInt();
         scanner.nextLine();
 
-        if(choiceRepository == 1){
-            repository= new MemoryMemberRepository();
-        }else {
-            repository = new MockMemberRepository();
-        }
-
-        MemberService service = new MemberService(repository);
+        config = new AppConfig(choiceRepository);
+        MemberService service = config.memberService();
 
         while (true) {
             System.out.println("\n===== 멋사 멤버 관리 시스템 =====");
@@ -56,6 +51,12 @@ public class Main {
                     // 1. 역할 선택
                     System.out.print("👤 역할 선택 (1: 아기사자, 2: 운영진): ");
 
+                    if (!scanner.hasNextInt()) {
+                        System.out.println("올바른 숫자를 입력해주세요.");
+                        scanner.nextLine();
+                        continue;
+                    }
+
                     int roleChoice = scanner.nextInt();
                     scanner.nextLine();
 
@@ -64,6 +65,12 @@ public class Main {
                     System.out.print("전공: ");     String major = scanner.nextLine();
 
                     System.out.print("기수: ");
+                    if (!scanner.hasNextInt()) {
+                        System.out.println("올바른 숫자를 입력해주세요.");
+                        scanner.nextLine();
+                        continue;
+                    }
+
                     int generation = scanner.nextInt();
                     scanner.nextLine();
 
